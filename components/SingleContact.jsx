@@ -7,8 +7,8 @@ const SingleContact = ({ item }) => {
   return <tr className="bg-white/40 h-[3rem] border-b border-black/40 text-center">
         <td>{fullName}</td>
         <td>{email}</td>
-        <td>{phoneNumber}</td>
         <td>{address}</td>
+        <td>{phoneNumber}</td>
         <td className="flex items-center gap-4 text-xl mt-[1rem]">
           <span className="cursor-pointer hover:opacity-70">
             <BsFillTrash3Fill />
